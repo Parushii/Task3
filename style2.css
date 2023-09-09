@@ -1,0 +1,65 @@
+/* table {
+    border-collapse: collapse;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+    width: 100%;
+    word-wrap: break-word;
+    margin: 2px 0;
+}
+#table tr th{
+    background:green;
+    padding: 2%;
+    color: white;
+}
+#table tr td{
+    padding: 1%;
+}
+tr:nth-child(even) {
+    background-color:rgb(206, 248, 206);
+}
+tr:nth-child(odd) {
+    background-color:rgb(164, 252, 164);
+}
+.details{
+    text-align: center;
+    word-wrap: break-word;
+    margin: 15px 0;
+    background-color:  #b6e5b4;
+    padding: 20px;
+    border-radius: 15px;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    translate: -50%;
+    box-shadow: 5px 5px 5px #6f976f;
+}
+.details div{
+    margin: 5px 0;
+    color: #000000 ;
+}
+.details h1{
+    color: rgb(120, 0, 176);
+    text-shadow: 2px 2px 2px rgb(248, 238, 255);
+}
+.details div span{
+    font-weight: bold;
+    color:  navy;
+}
+
+@media screen and (max-width:362px) {
+    .details{
+        width: 65%;
+        margin-left: 2%;
+    }
+}
+@media screen and (max-width:295px) {
+    .details{
+        width: 85%;
+        margin-left: 10%;
+    }
+}
+  
